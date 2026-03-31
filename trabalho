@@ -9,14 +9,11 @@
 <body>
   <header class="topo">
     <div class="container nav-container">
-      <div class="logo">📚 Biblioteca Online</div>
+      <div class="logo">Biblioteca Online</div>
       <nav>
         <ul class="menu">
           <li><a href="#inicio">Início</a></li>
           <li><a href="#livros">Livros</a></li>
-          <li><a href="#categorias">Categorias</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -26,30 +23,19 @@
     <div class="container hero-conteudo">
       <div class="hero-texto">
         <h1>Descubra um mundo de histórias e conhecimento</h1>
-        <p>
-          Explore nossa biblioteca online, encontre seus livros favoritos
-          e mergulhe em novas aventuras literárias.
-        </p>
         <div class="botoes-hero">
           <a href="#livros" class="botao">Ver livros</a>
-          <a href="#categorias" class="botao botao-secundario">Categorias</a>
         </div>
       </div>
     </div>
   </section>
-
   <main>
-    <section class="busca">
-      <div class="container busca-box">
-        <input type="text" placeholder="Pesquisar livros, autores ou categorias..." />
-        <button>Pesquisar</button>
       </div>
     </section>
 
     <section class="secao" id="livros">
       <div class="container">
         <h2>Livros em destaque</h2>
-        <p class="subtitulo">Alguns dos títulos mais procurados pelos leitores.</p>
 
         <div class="cards">
           <div class="card">
@@ -68,6 +54,7 @@
 
           <div class="card">
             <h3>Harry Potter</h3>
+
             <p><strong>Autor:</strong> J. K. Rowling</p>
             <p>Uma aventura mágica que conquistou leitores do mundo inteiro.</p>
             <button>Saiba mais</button>
@@ -82,42 +69,3 @@
         </div>
       </div>
     </section>
-
-    <section class="secao categorias" id="categorias">
-      <div class="container">
-        <h2>Categorias</h2>
-        <p class="subtitulo">Encontre livros de acordo com seu estilo favorito.</p>
-
-        <div class="lista-categorias">
-          <div class="categoria-item">Romance</div>
-          <div class="categoria-item">Aventura</div>
-          <div class="categoria-item">Ficção</div>
-          <div class="categoria-item">Educação</div>
-          <div class="categoria-item">Fantasia</div>
-          <div class="categoria-item">Biografia</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="secao sobre" id="sobre">
-      <div class="container">
-        <h2>Sobre a Biblioteca</h2>
-        <p>
-          A Biblioteca Online foi criada para facilitar o acesso à leitura e ao conhecimento.
-          Aqui, os usuários podem conhecer livros, explorar categorias e encontrar obras
-          importantes da literatura nacional e internacional.
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <footer id="contato">
-    <div class="container">
-      <h3>Contato</h3>
-      <p>Email: bibliotecaonline@email.com</p>
-      <p>Telefone: (00) 0000-0000</p>
-      <p>Biblioteca Online © 2026 | Desenvolvido para atividade de Desenvolvimento Web</p>
-    </div>
-  </footer>
-</body>
-</html>
